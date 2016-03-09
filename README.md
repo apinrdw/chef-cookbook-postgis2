@@ -27,8 +27,9 @@ Attributes
 The following attributes are set based on the platform, see the
 `attributes/default.rb` file for default values.
 
-* node['postgis']['template_name'] = name of the db template use for postgis
-
+* node['postgis']['template']['name'] = name of the db template use for postgis
+* node['postgis']['template']['locale'] = locale of the db template use for postgis
+* node['postgis']['version'] = postgis version
 
 Recipes
 =======
